@@ -1,0 +1,28 @@
+.header {
+    margin: 32px;
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    max-width: 250px;
+    flex: 1 0 auto;
+}
+
+.logo {
+    font-family: Montserrat;
+    font-size: 35.15px;
+    
+}
+.header__menu {
+    flex: 1 0 auto;
+    display: flex;
+    gap: 27px;
+    
+}
+.title {
+}
+.header__contact {
+    display: flex;
+    gap: 27px;
+    justify-content: end;
+}
