@@ -2,7 +2,7 @@
 .our-story {
     width: auto;
     height: calc(100vh - 85px);
-    background-image: url(/maket_for_portfolio_fizzora/img/bigscrin.jpg);
+    background-image: url(/Fizzora/img/bigscrin.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -82,7 +82,7 @@
 }
 
 .explore__img1 {
-    background-image: url(/maket_for_portfolio_fizzora/img/explore1.jpg);
+    background-image: url(/Fizzora/img/explore1.jpg);
 }
 .explore__img1_title {
     padding-bottom: 20px;
@@ -93,7 +93,7 @@
 .explore__img1_button {
 }
 .explore__img2 {
-    background-image: url(/maket_for_portfolio_fizzora/img/explore2.jpg);
+    background-image: url(/Fizzora/img/explore2.jpg);
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -165,7 +165,7 @@
     max-width: 100%;
 }
  
- NEW ARRIVALS */
+/* NEW ARRIVALS */
 
  @media screen and (max-width: 600px){
     .arrivals__grid-product {
