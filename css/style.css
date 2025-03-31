@@ -53,11 +53,6 @@ body {
     transition: 0.2s;
 }
 
-@media screen and (max-aspect-ratio: 5/3) {
-    
-}
-
-
 
 /* c2(columns) */
 
@@ -80,6 +75,11 @@ body {
         justify-content: end;
     }
 
+/*     our-story    */
+
+.our-story__text {
+    font-size: 44px;
+}
     /* explore */
 
     .explore__wrapper {
@@ -138,6 +138,10 @@ body {
     }
     /* stories */
 
+    .title-stories__grid-item {
+        font-size: 22px;
+    }
+
     .stories__link {
         display: inline-block;
         letter-spacing: 0.15px;
@@ -147,6 +151,194 @@ body {
     }
     .stories__grid-item {
         flex: 0 0 43.1%;
+    }
+}
+@media screen and (max-width:445px) {
+    .header__menu a:last-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .header__menu a:nth-child(2) {
+        display: none;
+    }
+}
+@media screen and (max-width:320px) {
+    
+    
+    .button {
+        font-size: 14px;
+    }
+    
+    .header__menu a:nth-child(n + 2){
+        flex: 1 0 auto;
+        display: flex;
+        gap: 27px;
+        display: none;
+    }
+
+    .header__menu a:first-child{
+        flex: 1 0 auto;
+        display: flex;
+        gap: none;
+    }
+    
+    .our-story {
+        width: auto;
+        height: 744px;
+        background-image: url(/maket_for_portfolio_fizzora/Fizzora/img/bigscrin.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .our-story__info {
+        padding: 115px 0px 0px 77px;
+        max-width: 400px;
+    }
+    .our-story__title {
+    }
+    .our-story__text {
+        font-size: 64px;
+    }
+    
+    
+    
+    /* explore */
+
+    .explore__wrapper {
+        flex-direction: column;
+    }
+    
+    
+    
+    .footer {
+
+    }
+    .footer__container {
+        
+    }
+    .footer__column1 {
+
+    }
+            /* our-story */
+    .our-story__text {
+        font-size: 42px;
+    }
+    .our-story {
+        height: 406px;
+    }
+    .our-story__info {
+        padding: 194px 0px 0px 16px;
+        max-width: 400px;
+    }
+    /* explore */
+    .explore {
+        width: 100%;
+        margin-top: 120px;
+    }
+    .explore__wrapper {
+        display: flex;
+        flex: 1 1 auto;
+        width: auto;
+        padding: 18px;
+        height: auto;
+        justify-content: auto;
+        gap: 20px;
+    }
+    
+    .explore-column {
+        flex: 1 1 auto;
+        aspect-ratio: auto;
+        height: 238px;
+    }
+    .explore-column:nth-child(3) {
+        height: 360px;
+    }
+    .explore-column:nth-child(1) {
+        min-height: 238px;
+        height: auto;
+    }
+    .explore__img {
+        background-size: cover;
+        color: #fff;
+        padding: 20px;
+    }
+    .explore__info {
+        padding-left: 58px;
+        display: flex;
+        flex-direction: column;
+        text-wrap: wrap;
+        min-height: 238px;
+    }
+    @media screen and (min-width: 750px){
+        .explore__info_title {
+            font-size: 24px;
+        }
+        .explore__info_list {
+            font-size: 18px;
+        }
+        
+    }
+    .explore__info_title {
+        font-size: 22px;
+        flex: 1 0 auto;
+    }
+    .explore__info_list {
+        font-size: 14px;
+        line-height: 36px;
+
+    }
+
+    /* collection */
+
+    .collection {
+        margin-top: 68px;
+    }
+    .collection__left-info {
+        margin: 5% 9% 5% 16px;  
+        font-size: 16px;
+    }
+    .img-collection__left {
+        min-width: 100%;
+        max-width: 100%;
+        padding-right: 53px;
+    }
+
+    .collection__right-info {
+        margin: 5% 9% 5% 0%; 
+    }
+
+    .collection__right {
+        margin: 64px 0px 0px 53px;
+    }
+
+    /* wineglasses */
+
+    .wineglass__right-info {
+        margin: 5% 9% 5% 0%; 
+    }
+    .wineglass__left {
+        padding-right: 53px;
+    
+    }
+    .wineglass__right {
+        padding: 40px 0px 72px 53px;
+    }
+    .wineglass__left-info {
+        margin: 5% 0% 5% 9%;  
+        font-size: 16px;
+    }
+    .wineglass__left-info {
+        margin: 5% 1.5% 5% 9%;  
+        font-size: 16px;
+    }
+
+    /* footer */
+    .footer__container {
+    padding: 0px 0px 75px 16px;
+    }
+    .footer__container :nth-child(3){
+        display: none;
     }
 }
 

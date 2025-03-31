@@ -17,8 +17,10 @@
     flex: 1 0 auto;
     display: flex;
     gap: 27px;
-    
+    overflow: hidden;
 }
+
+
 .title {
 }
 .header__contact {

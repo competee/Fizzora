@@ -1,19 +1,20 @@
 /* our-story */
 .our-story {
     width: auto;
-    height: calc(100vh - 85px);
-    background-image: url(/Fizzora/img/bigscrin.jpg);
+    height: 744px;
+    background-image: url(/maket_for_portfolio_fizzora/Fizzora/img/bigscrin.jpg);
     background-size: cover;
     background-position: center;
 }
 .our-story__info {
     padding: 115px 0px 0px 77px;
-    width: 400px;
+    max-width: 400px;
 }
 .our-story__title {
 }
 .our-story__text {
     font-size: 64px;
+    padding-bottom: 28px;
 }
 .our-story__button {
 }
@@ -64,6 +65,7 @@
 .explore__info_title {
     font-size: 34px;
     flex: 1 0 auto;
+    font-weight: 600;
 }
 
 
@@ -121,6 +123,7 @@
 /* wineglasses */
 
 .wineglass {
+    padding-top: 102px;
 }
 .wineglass__container {
     display: flex;
@@ -235,49 +238,47 @@
 .collection__container {
     display: flex;
 }
-
-.collection__container div {
-    flex: 50%;
-}
-
 .collection__left {
-    padding-right: 114px;
+    flex: 50%;
 }
 .c2__text-style {
 }
 .collection__left-img {
+    
 }
 .img-collection__left {
     min-width: 100%;
-    max-width: 100%;  
-    height: auto;      
-    object-fit: cover; 
+    max-width: 100%;
 }
 .collection__left-info {
-    padding: 50px 0px 50px 90px; 
-}
-.title_collection__left {
+    margin: 5% 9% 5% 9%;  
+    font-size: 16px;
 }
 
+.title-collection__left {
+}
+.title {
+}
 .text-collection__left {
-    margin: 50px 0px 30px 0px;
+    margin: 5% 0px 5% 0px;
 }
 .button-collection__left {
 }
 .button {
 }
 .collection__right {
+    flex: 50%;
+    padding-left: 9%;
     
 }
 .collection__right-info {
-    padding: 50px 90px 50px 90px;  
+    margin: 5% 9% 5% 9%; 
+}
+.title-collection__right {
 
 }
-.title_collection__right {
-    
-}
 .text-collection__right {
-    margin: 50px 0px 30px 0px;
+    margin: 5% 0px 5% 0px;
 }
 .button-collection__right {
 }
@@ -285,9 +286,7 @@
 }
 .img-collection__right {
     min-width: 100%;
-    max-width: 100%;  /* Запобігає виходу за межі контейнера */
-    height: auto;      /* Зберігає пропорції */
-    object-fit: cover; /* Обрізає картинку під розміри блоку */
+    max-width: 100%;
 }
 
 /* stories */
@@ -314,7 +313,8 @@
 }
 .stories__grid-item img{
     width: 100%;
-    height: 100%;
+    min-width: 173px;
+    min-height: 224px;
     object-fit: cover;
     aspect-ratio: 2/3;
 }
@@ -352,6 +352,9 @@ footer {
     margin: 0 auto;
     display: flex;
     padding: 0px 0px 75px 95px;
+    width: 100%;
+    min-width: 151px;
+    flex-wrap: wrap;
 }
 .footer__container li:first-child {
     padding: 30px 0px 15px 0px;
