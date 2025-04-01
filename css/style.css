@@ -80,6 +80,9 @@ body {
 .our-story__text {
     font-size: 44px;
 }
+.our-story {
+    height: 512px;
+}
     /* explore */
 
     .explore__wrapper {
@@ -185,11 +188,7 @@ body {
     }
     
     .our-story {
-        width: auto;
-        height: 744px;
-        background-image: url(/maket_for_portfolio_fizzora/Fizzora/img/bigscrin.jpg);
-        background-size: cover;
-        background-position: center;
+        height: 406px;
     }
     .our-story__info {
         padding: 115px 0px 0px 77px;
