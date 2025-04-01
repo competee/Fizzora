@@ -154,6 +154,14 @@ body {
     .stories__grid-item {
         flex: 0 0 43.1%;
     }
+
+    /* footer */
+    .footer__container {
+        padding: 0px 0px 75px 16px;
+    }
+    .footer__container :nth-child(3) {
+        display: none;
+    }
 }
 @media screen and (max-width:445px) {
     .header__menu a:last-child {
